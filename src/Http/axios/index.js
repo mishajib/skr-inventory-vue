@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL      = import.meta.env.VITE_API_URL
+const API_URL      = "https://skr-inventory.mishajib.me/api/v1"
 const ACCESS_TOKEN = localStorage.getItem('accessToken') ?? null
 
 export default axios.create({
